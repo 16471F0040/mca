@@ -1,0 +1,93 @@
+table,td,tr{
+  border:2px solid #000;
+  border-collapse: collapse;
+  margin: 20px;
+}
+
+.main{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+img{
+  width: 300px;
+  border: 2px solid #000;
+  border-radius: 50px
+}
+.left{
+  border: 1px solid #000;
+  background-color: FAFAD2;
+  margin: 1px;
+  width: 25%;
+  text-align: justify;
+  font-size: 10;
+  font-style: italic;
+  font-family: fantasy;
+  font-variant:inherit;
+}
+.right{
+  border: 1px solid #000;
+  background-color:;
+  margin: 1px;
+  width: 70%;
+
+  font-size: 10;
+  font-style:italic;
+}
+@media only screen and (max-width:480px) {
+  .main{
+    display: flex;
+    flex-direction: column;
+  }
+  .left{
+    width: 100%;
+    background-color: #cdff56;
+  }
+  .right{
+    width: 100%;
+    background-color:blue;
+  }
+}
+@media only screen and (min-width:481px) and (max-width:768px){
+  .main{
+    display: flex;
+    flex-direction: column;
+  }
+  .left{
+    width: 100%;
+    background-color: red;
+  }
+  .right{
+    width: 100%;
+    background-color: 100%;
+  }
+}
+@media only screen and (min-width:769px) and (max-width:1024px){
+  .main{
+    display: flex;
+    flex-direction: column;
+  }
+  .left{
+    width:70%;
+    background-color: blue;
+  }
+  .right{
+    width: 70%;
+    background-color: green;
+  }
+}
+@media only screen and (min-width:1025px) and (max-width:1280px){
+  .main{
+    display: flex;
+    flex-direction: column;
+  }
+  .left{
+    width:70%;
+    background-color: red;
+  }
+  .right{
+    width: 70%;
+    background-color: yellow;
+
+  }
+}

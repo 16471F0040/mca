@@ -1,0 +1,46 @@
+{
+  "basicdetails":{
+    "name":"Dharma Teja",
+    "image":"img.png",
+    "email":"dharmatejasikhakolli@gmail.com",
+    "phone":"7306760995"
+  },
+  "education":[
+    {
+      "course":"Degree(B.sc-computers)",
+      "college":"Krishnaveni Degree College",
+      "percentage":"69%"
+    },
+    {
+      "course":"Intermediate",
+      "college":"sri cheithanya junior college",
+        "percentage":"81.3%"
+      },
+    {
+      "course":"ssc",
+      "college":"zphigh school",
+      "percentage":"72%"
+    }
+  ],
+  "carrier":{
+    "carr":"seeking a challenging carrier opportunity which would be utilize my knowledge to the growth of the organization "
+  },
+  "skills" :[
+    {
+      "name":"Programming languages",
+      "value":"c,c++,java,python"
+    },
+    {
+      "name":"Operating Systems",
+      "value":"Windows,MAC"
+    }
+  ],
+"Achevements":[
+  "i got first prize in Chess Compitation in our coollege",
+  "i got second prize in PPT Presentation",
+  "i got third prize in Computational thinking"
+],
+"Declaration":{
+  "dec":"i near by knowledge improve my all details"
+}
+}
